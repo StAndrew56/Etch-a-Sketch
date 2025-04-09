@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body class="margin0">
+    <div class="intro">
+        <h1>Etch-a-Sketch</h1>
+        <h2>Enter Grid Size</h2>
+        <div id="invalidValue"></div>
+        <input id="input" type="text" placeholder="Number Between 2-99">
+        <button id="btn" onclick="onButtonClick()">Submit</button>
+    </div>
+    
+
+    <div class="grid-wrapper">
+        <div class="controlPanel">
+            <h2>Cursor Options & Settings</h2>
+            <button onclick="defaultCursor()">Default Cursor</button>
+            <button onclick="rgbRandomizer()">Rgb Cursor</button>
+            <button onclick="clearColors()">Clear</button>
+
+        </div>
+        <div id="grid">
+            <div class="flexRow">
+                <div class="flexBox">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="production">
+        <img src="github.png" alt="github">
+        <h1>Github: StAndrew56</h1>
+    </div>
+</body>
+</html>
